@@ -152,6 +152,12 @@ address {
   cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:active {
+  transform: scale(1.1);
+  transition: 250ms linear;
+}
+
 /* --------ABOUT------- */
 
 .about-container {
@@ -421,6 +427,12 @@ address {
   margin-left: 445px;
 }
 
+.foto-button:hover,
+.foto-button:active {
+  transform: scale(1.1);
+  transition: 250ms linear;
+}
+
 .foto-link {
   text-decoration: none;
 }
@@ -429,17 +441,7 @@ address {
   text-decoration: none;
 }
 
-/* *,
-*::before,
-*::after {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-} */
-
 .image-slider_image {
-  /* padding-top: 100px; */
   text-align: center;
 }
 
@@ -633,79 +635,23 @@ address {
   font-weight: 500;
   font-size: 15px;
   line-height: 110%;
-  color: #fff;
-  width: 193px;
-  height: 48px;
-  background: #2f80ed;
-  border-radius: 77px;
-  border: none;
-  text-align: center;
-  display: inline-flex;
-  justify-content: center;
-  padding-top: 15px;
-  cursor: pointer;
-}
-
-.footer-btn2 {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 110%;
   color: #6d6d6d;
   width: 193px;
   height: 48px;
   background: #d9d9d9;
   border-radius: 77px;
-  border: none;
+  border: #787272;
   text-align: center;
   display: inline-flex;
   justify-content: center;
   padding-top: 15px;
   cursor: pointer;
-}
-
-.footer-btn2:not(:last-child) {
-  margin-right: 25px;
-}
-
-.footer-btn3 {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 110%;
-  color: #fff;
-  width: 193px;
-  height: 48px;
-  background: #58d063;
-  border-radius: 77px;
-  border: none;
-  text-align: center;
-  display: inline-flex;
-  justify-content: center;
-  padding-top: 15px;
-  cursor: pointer;
-}
-
-.footer-btn3:not(:last-child) {
-  margin-right: 25px;
-}
-
-.footer-btn3:hover,
-.footer-btn3:focus {
-  box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, 0.2);
-  transition: 250ms linear;
-}
-
-.footer-btn2:hover,
-.footer-btn2:focus {
-  box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, 0.2);
-  transition: 250ms linear;
 }
 
 .footer-btn:hover,
 .footer-btn:focus {
-  box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, 0.2);
   transition: 250ms linear;
+  transform: scale(1.1);
 }
 
 .footer-text {
